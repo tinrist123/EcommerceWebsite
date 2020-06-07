@@ -195,9 +195,7 @@ ul.side-menu__list {
     padding: 20px 10px 14px 10px;
 }
 
-content: space-between;
 
-}
 
 ul.disCount__listItem {
     display: flex;
@@ -224,9 +222,7 @@ ul.disCount__listItem li:last-child {
     display: block;
 }
 
-ul.disCount__listItem {
-    /* display: flex; */
-}
+
 
 ul.disCount__listItem li a {
     font-size: 15px;
