@@ -37,3 +37,7 @@ li {
 .mgt20 {
     margin-top: 20px;
 }
+
+.relative {
+    position: relative;
+}

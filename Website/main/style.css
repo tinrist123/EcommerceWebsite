@@ -125,6 +125,7 @@ ul.side-menu__sub-menu li:hover {
 
 ul.side-menu__sub-menu li {
     transition: background 0.25s;
+    text-align: center;
 }
 
 ul.side-menu__list {
@@ -190,17 +191,12 @@ ul.side-menu__list {
 
 .listProduct__menu {
     font-size: 14px;
-    height: 56px;
-    line-height: 56px;
     margin-bottom: 10px;
+    padding: 20px 10px 14px 10px;
 }
 
-.listProduct .row {
-    padding-left: 10px;
-}
+content: space-between;
 
-.listProduct .row {
-    justify-content: space-between;
 }
 
 ul.disCount__listItem {
@@ -209,21 +205,11 @@ ul.disCount__listItem {
 
 ul.disCount__listItem li {
     margin-left: 23.6px;
-}
-
-ul.disCount__listItem li a {
-    font-size: 16px;
+    display: inline-block;
 }
 
 ul.disCount__listItem li:last-child {
     margin-right: 20px;
-}
-
-.listProduct__menu {
-    font-size: 14px;
-    height: 56px;
-    line-height: 56px;
-    margin-bottom: 10px;
 }
 
 .listProduct .row {
@@ -234,16 +220,16 @@ ul.disCount__listItem li:last-child {
     justify-content: space-between;
 }
 
-ul.disCount__listItem {
-    display: flex;
+.row.cvertFlextoBlock {
+    display: block;
 }
 
-ul.disCount__listItem li {
-    margin-left: 23 6px;
+ul.disCount__listItem {
+    /* display: flex; */
 }
 
 ul.disCount__listItem li a {
-    font-size: 1 5px;
+    font-size: 15px;
 }
 
 ul.disCount__listItem li:last-child {
@@ -330,5 +316,9 @@ span.priceProduct p:first-child {
     background: url(./images/icon-cart.png) no-repeat right 10px center red !important;
 }
 
+img.khuyenmai-icon {
+    position: absolute;
+    left: 0;
+}
 
 /* End DisCount Part */
