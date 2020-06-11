@@ -1,83 +1,71 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Thông tin giỏ hàng</title>
-    <link rel="stylesheet" href="cart.css">
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0-2/css/all.min.css"
-    />
-</head>
-<body>
-    <section class="cart">
-        <div class="container">
-            <div class="row">
-                <div class="col-auto">
-                    <div class="main__header">
-                        <a href="https://www.h2gaming.vn/" class="logo" target="_self">
-                            <h1 class="logo__text">H2gaming.vn</h1>
-                        </a>
-                        <ul class="info__link">
-                            <li class="link__cart">
-                                <a href="">Giỏ hàng</a>
-                            </li>
-                            <li class="info__cart">
-                                Thông tin giỏ hàng
-                            </li>
-                            <li class="link__payment">
-                                <a href="">Phương thức thanh toán</a>
-                            </li>
-                        </ul>
+
+    <main>
+        <section class="name">
+            <h2 class="name__title">
+                Giỏ hàng
+            </h2>
+        </section>
+        <section class="content">
+            <div class="container">
+                <div class="row">
+                    <div class="col-auto">
+                        <div class="content__img">
+                            <p>Sản phẩm</p>
+                        </div>
+                        <div class="content__name">
+                            <p>Tên sản phẩm</p>
+                        </div>
+                        <div class="content__sl">
+                            <p>Số lượng</p>
+                        </div>
+                        <div class="content__gia">
+                            <p>Giá tiền</p>
+                        </div>
+                        <div class="content__xoa">
+                            <p>Xóa</p>
+                        </div>
                     </div>
-                    <div class="main__footer">
-                        <div class="name">
-                            <h2>Thông tin giao hàng</h2>
+                    <div class="col-auto">
+                        <div class="about__img">
+                            <img src="images/1.webp" alt="">
                         </div>
-                        <div class="link_login">
-                            <h3>Bạn đã đăng nhập chưa?</h3>
-                            <a href="">Đăng nhập</a>
+                        <div class="about__name">
+                            <a href="https://gearvn.com/products/ban-phim-e-dra-ek701-rgb">Bàn phím E-Dra</a>
                         </div>
-                        <div class="flie__input">
-                            <div class="input__name">
-                                <input type="text" placeholder="Họ và tên" size="30">
-                            </div>
-                            <div class="input_email">
-                                <input type="email" placeholder="Email" size="30">
-                            </div>
-                            <div class="input_phoneNumber">
-                                <input type="text" placeholder="Số điện thoại" size="30">
-                            </div>
-                            <div class="input_address">
-                                <input type="text" placeholder="Địa chỉ" size="30">
-                            </div>
-                            <div class="input_city">
-                                <select id="input__cityname">
-                                    <option value="default">Chọn tỉnh / Thành phố</option>
-                                    <option value="HCM">Hồ Chí Minh</option>
-                                    <option value="HCM">Hồ Chí Minh</option>
-                                    <option value="HCM">Hồ Chí Minh</option>
-                                    <option value="HCM">Hồ Chí Minh</option>
-                                    <option value="HCM">Hồ Chí Minh</option>
-                                </select>
-                            </div>
-                            <div class="input_district">
-                                <select id="input__district">
-                                    <option value="default">Chọn quận / Huyện</option>
-                                    <option value="HCM">Quận 1</option>
-                                    <option value="HCM">Quận 2</option>
-                                    <option value="HCM">Quận 3</option>
-                                    <option value="HCM">Quận 4</option>
-                                    <option value="HCM">Quận 5</option>
-                                </select>
-                            </div>
+                        <div class="about__sl">
+                            <input type="number" name="quality" value="1" min="1" >
+                        </div>
+                        <div class="about__gia">
+                            <span>740,000đ</span>
+                        </div>
+                        <div class="about__xoa">
+                            <i class="fa fa-trash"></i>
+                        </div>
+                    </div>
+                </div>  
+                <div class="row">
+                    <div class="col-auto">
+                        <div class="total__name">
+                            <p>Tổng tiền</p>
+                        </div>
+                        <div class="total__cost">
+                            <span>740,000đ</span>
+                        </div>
+                    </div>
+                    
+                </div>             
+            </div>
+        </section>
+        <section class="pay">
+            <div class="container">
+                <div class="row">
+                    <div class="col">
+                        <div class="button">
+                            <button type="submit" id="checkout" class="button-default" name="checkout" value="">Thanh toán</button>
+                            <button type="submit" id="update-cart" class="button-default" name="update" value="">Cập nhật</button>
                         </div>
                     </div>
                 </div>
-                <div class="col-auto"></div>
             </div>
-        </div>
-    </section>
-</body>
-</html>
+        </section>
+    </main>

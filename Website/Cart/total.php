@@ -2,11 +2,11 @@
 include "../header/header.html"
 ?>
 <header>
-    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="cart.css">
 </header>
 <!-- <main> -->
 <?php
-include "./index.html";
+include "./cart.html";
 ?>
 <!-- </main> -->
 <?php
